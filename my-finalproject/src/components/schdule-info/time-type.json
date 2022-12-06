@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_schdule_info_time_types",
+  "info": {
+    "displayName": "Time Type",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "timeType": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    }
+  }
+}

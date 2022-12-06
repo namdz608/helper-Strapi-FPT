@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "booking_infos",
+  "info": {
+    "singularName": "booking-info",
+    "pluralName": "booking-infos",
+    "displayName": "BookingInfo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "timeStamp": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "timeSlot": {
+      "type": "string"
+    },
+    "note": {
+      "type": "string"
+    },
+    "verify": {
+      "type": "string"
+    },
+    "helperId": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "helper_email": {
+      "type": "string"
+    },
+    "helper_name": {
+      "type": "string"
+    },
+    "service": {
+      "type": "string"
+    }
+  }
+}

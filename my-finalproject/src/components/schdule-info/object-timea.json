@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_schdule_info_object_timeas",
+  "info": {
+    "displayName": "ObjectTimea",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "timeType": {
+      "type": "string"
+    }
+  }
+}

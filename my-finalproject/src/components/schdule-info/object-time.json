@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_schdule_info_object_times",
+  "info": {
+    "displayName": "Object_time"
+  },
+  "options": {},
+  "attributes": {
+    "timeType": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    }
+  }
+}

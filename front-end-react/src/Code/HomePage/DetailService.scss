@@ -1,0 +1,51 @@
+.banner {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/93/Long_sky_background_%2B_PAN.jpg");
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.content-service {
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+
+  .name {
+    font-weight: bold;
+    font-size: larger;
+  }
+  .description {
+    margin-top: 20px;
+  }
+  img {
+    margin-top: 50px;
+    height: 500px;
+  }
+}
+.employees {
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  .child-employee {
+    flex: 1 0 21%; /* explanation below */
+    margin: 20px;
+    height: 350px;
+    background-color: rgb(251, 248, 248);
+
+    img {
+      width: 100px;
+      margin-top: 5px;
+    }
+    .emp-img {
+      img {
+        margin-top: 20px;
+        height: 100px;
+        width: auto;
+      }
+    }
+    .emp-name{
+      font-size: large;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+  }
+}

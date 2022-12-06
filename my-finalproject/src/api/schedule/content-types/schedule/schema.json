@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "schedules",
+  "info": {
+    "singularName": "schedule",
+    "pluralName": "schedules",
+    "displayName": "Schedule",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "helper_id": {
+      "type": "integer"
+    },
+    "date": {
+      "type": "string"
+    },
+    "ObjectTime": {
+      "displayName": "ObjectTimea",
+      "type": "component",
+      "repeatable": true,
+      "component": "schdule-info.object-timea"
+    }
+  }
+}
