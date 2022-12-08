@@ -280,7 +280,6 @@ class AddUser extends Component {
                               <ReactSelect
                                 options={this.state.job}
                                 isMulti
-                                isDisabled={this.state.role=== 'Helper'?false:true}
                                 closeMenuOnSelect={false}
                                 hideSelectedOptions={false}
                                 components={{
