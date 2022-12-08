@@ -7,8 +7,8 @@ let sendSimpleEmail=async(dataSent)=>{
         port: 587,
         secure: false, // true for 465, false for other ports
         auth: {
-          user: "phuongvtgch17530@fpt.edu.vn", // generated ethereal user
-          pass: "dgputoydptepqnkz", // generated ethereal password
+          user: "dcmclgtdat4@gmail.com", // generated ethereal user
+          pass: "bjjkyirxtgepdbap", // generated ethereal password
         },
       });
     
@@ -33,8 +33,8 @@ let sendAccpetEmail1=async(dataSent)=>{
       port: 587,
       secure: false, // true for 465, false for other ports
       auth: {
-        user: "phuongvtgch17530@fpt.edu.vn", // generated ethereal user
-        pass: "dgputoydptepqnkz", // generated ethereal password
+        user: "dcmclgtdat4@gmail.com", // generated ethereal user
+        pass: "bjjkyirxtgepdbap", // generated ethereal password
       },
     });
     // send mail with defined transport object
@@ -59,8 +59,8 @@ let sendDeniedEmail1=async(dataSent)=>{
       port: 587,
       secure: false, // true for 465, false for other ports
       auth: {
-        user: "phuongvtgch17530@fpt.edu.vn", // generated ethereal user
-        pass: "dgputoydptepqnkz", // generated ethereal password
+        user: "dcmclgtdat4@gmail.com", // generated ethereal user
+        pass: "bjjkyirxtgepdbap", // generated ethereal password
       },
     });
     // send mail with defined transport object
